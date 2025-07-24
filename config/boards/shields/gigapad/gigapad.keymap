@@ -15,16 +15,23 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp N1>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
+            bindings = <&kp LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
+        };
+        td1: tap_dance_0 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(F22)>, <&bootloader>;
         };
     };
+
 
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp A  &kp B  &kp C  &kp D  &kp E  &kp F &kp G  &kp H  &kp I  &td0
+                &kp LS(F15)  &kp LS(F16)  &kp ENTER  &kp LS(F18)  &kp LS(F19)  &kp LS(F20) &kp LS(F21)  &td1  &kp LS(F23)  &td0
             >;
         };
 
