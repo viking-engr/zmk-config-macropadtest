@@ -17,7 +17,7 @@
             tapping-term-ms = <200>;
             bindings = <&kp LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
         };
-        td1: tap_dance_0 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
