@@ -15,61 +15,61 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F15)) LS(F15)>, <&kp LS(LC(LALT(F15)))>;
+            bindings = <&kp LS(F15)>, <&kp LS(LC(F15))>;
         };
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F16)) LS(F16)>, <&kp LS(LC(LALT(F16)))>;
+            bindings = <&kp LS(F16)>, <&kp LS(LC(F16))>;
         };
         td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F17)) ENTER>, <&kp LS(LC(LALT(F17)))>;
+            bindings = <&kp ENTER>, <&kp LS(LC(F17))>;
         };
         td3: tap_dance_3 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F18)) LS(F18)>, <&kp LS(LC(LALT(F18)))>;
+            bindings = <&kp LS(F18)>, <&kp LS(LC(F18))>;
         };
         td4: tap_dance_4 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F19)) LS(F19)>, <&kp LS(LC(LALT(F19)))>;
+            bindings = <&kp LS(F19)>, <&kp LS(LC(F19))>;
         };
         td5: tap_dance_5 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F20)) LS(F20)>, <&kp LS(LC(LALT(F20)))>;
+            bindings = <&kp LS(F20)>, <&kp LS(LC(F20))>;
         };
         td6: tap_dance_6 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F21)) LS(F21)>, <&kp LS(LC(LALT(F21)))>;
+            bindings = <&kp LS(F21)>, <&kp LS(LC(F21))>;
         };
         td7: tap_dance_7 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F22)) LS(F22)>, <&kp LS(LC(LALT(F22)))>, <&bootloader>;
+            bindings = <&kp LS(F22)>, <&kp LS(LC(F22))>, <&bootloader>;
         };
         td8: tap_dance_8 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F23)) LS(F23)>, <&kp LS(LC(LALT(F23)))>;
+            bindings = <&kp LS(F23)>, <&kp LS(LC(F23))>;
         };
         td9: tap_dance_9 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&mt LS(LC(F24)) LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
+            bindings = <&kp LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
         };
 
     };
