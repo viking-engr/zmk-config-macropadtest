@@ -63,13 +63,20 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LS(F23)>, <&kp LS(LC(F23))>;
+            bindings = <&kp LS(F23)>, <&to 1>;
         };
         td9: tap_dance_9 {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
+        };
+
+        tdswitch1: tap_dance_switch_1 {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LALT(N8)>, <&to 0>;
         };
 
     };
@@ -83,6 +90,13 @@
                 &td0  &td1  &td2  &td3  &td4  &td5 &td6  &td7  &td8  &td9
             >;
         };
+
+        wow_layer {
+            bindings = <
+                &kp LALT(N1)  &kp LALT(N2)  &kp LALT(N3)  &kp LALT(N4)  &kp LALT(N5)  &kp LALT(N6) &kp LALT(N7)  &tdswitch1  &kp LALT(N9)  &kp LALT(MINUS)
+            >;
+        };
+
 
     };
 };
