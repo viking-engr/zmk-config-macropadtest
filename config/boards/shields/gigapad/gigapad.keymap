@@ -57,7 +57,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LS(F22)>, <&kp LS(LC(F22)),&bootloader>;
+            bindings = <&kp LS(F22)>, <&kp LS(LC(F22))>, <&bootloader>;
         };
         td8: tap_dance_8 {
             compatible = "zmk,behavior-tap-dance";
