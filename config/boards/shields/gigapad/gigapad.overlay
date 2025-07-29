@@ -1,6 +1,7 @@
 / {
     chosen {
         zmk,kscan = &default_kscan;
+        zmk,underglow = &led_strip;
     };
 
     default_kscan: kscan {
