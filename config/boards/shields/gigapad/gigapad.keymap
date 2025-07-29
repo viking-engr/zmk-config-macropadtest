@@ -76,7 +76,7 @@
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp LALT(N8)>, <&to 0>;
+            bindings = <&kp LA(N8)>, <&to 0>;
         };
 
     };
@@ -93,7 +93,7 @@
 
         wow_layer {
             bindings = <
-                &kp LALT(N1)  &kp LALT(N2)  &kp LALT(N3)  &kp LALT(N4)  &kp LALT(N5)  &kp LALT(N6) &kp LALT(N7)  &tdswitch1  &kp LALT(N9)  &kp LALT(MINUS)
+                &kp LA(N1)  &kp LA(N2)  &kp LA(N3)  &kp LA(N4)  &kp LA(N5)  &kp LA(N6) &kp LA(N7)  &tdswitch1  &kp LA(N9)  &kp LA(MINUS)
             >;
         };
 
