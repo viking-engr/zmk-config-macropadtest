@@ -5,6 +5,11 @@
 
 
 
+
+/ {
+
+
+
     keymap {
         compatible = "zmk,keymap";
 
