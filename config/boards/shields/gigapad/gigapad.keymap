@@ -17,6 +17,12 @@
             bindings = <&mo 1>, <&mkp MB3>;
             display-name = "Layer-Tap";
         };
+        td: tap_dance {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp LS(F24)>, <&bt BT_SEL 0>, <&bt BT_SEL 1>, <&bt BT_CLR>;
+        };
     };
 
     keymap {
@@ -38,7 +44,7 @@
             >;
         };
 
-        second_layer {
+        second {
             bindings = <
                 &kp A
                 &kp B
