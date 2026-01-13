@@ -35,7 +35,7 @@
                 &kp LS(F19)
                 &kp LS(F20)
                 &kp LS(F21)
-                &kp LS(F22)
+                &tdres
                 &kp LS(F23)
                 &td
                 &mkp MCLK
