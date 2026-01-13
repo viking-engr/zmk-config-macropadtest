@@ -9,14 +9,6 @@
 / {
 
     behaviors {
-        lt: layer_tap {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&mo 1>, <&mkp MCLK>;
-            display-name = "Layer-Tap";
-        };
         td: tap_dance {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
@@ -40,7 +32,7 @@
                 &kp N7
                 &kp N8
                 &kp N9
-                &lt
+                &lt MCLK
             >;
         };
 
