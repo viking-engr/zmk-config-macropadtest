@@ -55,7 +55,7 @@
                 &kp H
                 &kp I
                 &kp J
-                &kp td
+                &td
                 &mkp MCLK
             >;
         };
