@@ -32,7 +32,7 @@
                 &kp N7
                 &kp N8
                 &kp N9
-                &lt MCLK
+                &lt 1 MCLK
             >;
         };
 
