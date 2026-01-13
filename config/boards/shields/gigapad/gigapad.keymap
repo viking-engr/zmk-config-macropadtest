@@ -24,7 +24,7 @@
             bindings = <
                 &kp N0
                 &kp N1
-                &kp N2
+                &kp ENTER
                 &kp N3
                 &kp N4
                 &kp N5
@@ -32,7 +32,7 @@
                 &kp N7
                 &kp N8
                 &kp N9
-                &lt 1 MCLK
+                &mkp MCLK
             >;
         };
 
