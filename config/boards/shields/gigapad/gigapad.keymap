@@ -14,7 +14,7 @@
             #binding-cells = <2>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&mo 1>, <&mkp MB3>;
+            bindings = <&mo 1>, <&mkp MCLK>;
             display-name = "Layer-Tap";
         };
         td: tap_dance {
@@ -55,8 +55,8 @@
                 &kp H
                 &kp I
                 &kp J
-                &kp G
-                &mkp MB3
+                &kp td
+                &mkp MCLK
             >;
         };
 
